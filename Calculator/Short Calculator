@@ -5,10 +5,6 @@ time.sleep(3)
 print("\n")
 
 
-print("Type 1 For Short Calculations")
-print("Type 2 For Long Calculations")
-type = print(int(input("Your Type: ")))
-
 
 
 ##  Short Calculator
