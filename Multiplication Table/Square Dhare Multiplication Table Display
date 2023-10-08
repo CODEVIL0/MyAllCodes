@@ -1,0 +1,81 @@
+print('▌│█║▌║▌║🙂 𝐂𝐨𝐝𝐞 𝐌𝐚𝐝𝐞 𝐁𝐲 𝐂𝐎𝐃𝐄𝐕𝐈𝐋 🙂║▌║▌║█│▌',)
+
+import time
+time.sleep(3)
+print("\n")
+1.
+i=0
+while i<=10:
+    print(" %3d"% (i*1),end=' ')
+    i += 1
+print("\n")
+
+2.
+i=0
+while i<=20:
+    print(" %3d"% (i*1),end=' ')
+    i += 2
+print("\n")
+
+3.
+i=0
+while i<=30:
+    print(" %3d"% (i*1),end=' ')
+    i += 3
+print("\n")
+
+4.
+i=0
+while i<=40:
+    print(" %3d"% (i*1),end=' ')
+    i += 4
+print("\n")
+
+5.
+i=0
+while i<=50:
+    print(" %3d"% (i*1),end=' ')
+    i += 5
+print("\n")
+
+6.
+i=0
+while i<=60:
+    print(" %3d"% (i*1),end=' ')
+    i += 6
+print("\n")
+
+7.
+i=0
+while i<=70:
+    print(" %3d"% (i*1),end=' ')
+    i += 7
+print("\n")
+
+8.
+i=0
+while i<=80:
+    print(" %3d"% (i*1),end=' ')
+    i += 8
+print("\n")
+
+9.
+i=0
+while i<=90:
+    print(" %3d"% (i*1),end=' ')
+    i += 9
+print("\n")
+
+10.
+i=0
+while i<=100:
+    print(" %3d"% (i*1),end=' ')
+    i += 10
+print("\n")
+
+import time
+time.sleep(2)
+
+print("Thank You For Using My Code😃")
+print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+print("Goodbye👋")
