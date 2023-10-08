@@ -1,5 +1,8 @@
 print('▌│█║▌║▌║🙂 𝐂𝐨𝐝𝐞 𝐌𝐚𝐝𝐞 𝐁𝐲 𝐂𝐎𝐃𝐄𝐕𝐈𝐋 🙂║▌║▌║█│▌',)
 
+import time
+time.sleep(3) 
+
 #Discriminant
 a = int(input("Enter Value Of a: "))
 b = int(input("Enter Value Of b: "))
