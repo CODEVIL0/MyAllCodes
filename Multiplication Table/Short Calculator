@@ -1,0 +1,37 @@
+print('▌│█║▌║▌║🙂 𝐂𝐨𝐝𝐞 𝐌𝐚𝐝𝐞 𝐁𝐲 𝐂𝐎𝐃𝐄𝐕𝐈𝐋 🙂║▌║▌║█│▌',)
+
+import time
+time.sleep(3)
+print("\n")
+
+
+print("Type 1 For Short Calculations")
+print("Type 2 For Long Calculations")
+type = print(int(input("Your Type: ")))
+
+
+
+##  Short Calculator
+a = float(input("Enter 1st Number: "))
+b = float(input("Enter 2nd Number: "))
+sub = (a-b)
+add = (a+b)
+mul = (a*b)
+div = (a/b)
+res1 = (input("Task To Perform add/sub/mul/div: "))
+print("\n")
+if res1 == 'add' :
+    print("Result is:",(add))
+elif res1 == 'sub' :
+    print(sub)
+elif res1 == 'mul' :
+    print(mul)
+else:
+    print(div)
+
+import time
+time.sleep(2)
+
+print("Thank You For Using My Code😃")
+print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+print("Goodbye👋")
