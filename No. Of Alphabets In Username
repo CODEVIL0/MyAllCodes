@@ -1,0 +1,4 @@
+username = input("please enter your name: ")
+print("Username Received: " ,username)
+print(len(username))
+print("\n")
