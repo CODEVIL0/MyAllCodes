@@ -1,0 +1,88 @@
+print('▌│█║▌║▌║🙂 𝐂𝐨𝐝𝐞 𝐌𝐚𝐝𝐞 𝐁𝐲 𝐂𝐎𝐃𝐄𝐕𝐈𝐋 🙂║▌║▌║█│▌',)
+
+print("\n")
+
+print("Please Input Your Real Grades Of Class 12th Otherwise It Won't Work")
+print("\n")
+
+import time
+time.sleep(5)
+
+
+
+sub1 = int(input("Enter Marks out of 100 of Hindi/maths: "))
+
+sub2 = int(input("Enter Marks out of 100 of bst/history: "))
+
+sub3 = int(input("Enter Marks out of 100 of accounts/politics: "))
+
+sub4 = int(input("Enter Marks out of 100 of english: "))
+
+sub5 = int(input("Enter Marks out of 100 of economics: "))
+print("\n")
+
+
+
+total = sub1+sub2+sub3+sub4+sub5
+
+print("Your Total Marks: ",total)
+print("\n")
+
+
+result = ((total/500)*100)
+
+
+
+print("Your Percentage is %0.2f"%(result))
+
+print("\n")
+
+
+
+if result>75:
+
+    print("Your Grade is A")
+
+elif result >=65 and result <=75:
+
+    print("Your Grade is B")
+
+elif result >45 and result <65:
+
+    print("Your Grade is C")
+
+elif result >=35 and result <45:
+
+    print("Your Grade is D")
+
+else:
+
+    print("Your Grade is E")
+
+print("\n")
+
+print("Results Sending...😁😁")
+
+import time
+time.sleep(8)
+
+
+
+print("Results Sent To Coder😆😆")
+
+import time
+time. sleep(10)
+
+print("\n")
+
+
+
+print("Lol Kidding😉")
+import time
+time.sleep(2)
+
+print("Thank You For Using My Code😃")
+print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+print("Goodbye👋")
+
+
