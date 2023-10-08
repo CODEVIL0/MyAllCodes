@@ -1,0 +1,552 @@
+print('▌│█║▌║▌║🙂 𝐂𝐨𝐝𝐞 𝐌𝐚𝐝𝐞 𝐁𝐲 𝐂𝐎𝐃𝐄𝐕𝐈𝐋 🙂║▌║▌║█│▌',)
+
+import time
+time.sleep(3)
+print("\n")
+
+        
+##   Long Calculator        
+    a = float(input("Enter 1st Number: "))
+    b = float(input("Enter 2nd Number: "))
+    sub = (a-b)
+    add = (a+b)
+    mul = (a*b)
+    div = (a/b)
+    res1 = (input("Task To Perform add/sub/mul/div/stop: "))
+    print("\n")
+    if res1 == 'stop':
+            import time
+            time.sleep(2)
+            print("Thank You For Using My Code😃")
+            print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+            print("Goodbye👋")
+
+
+
+
+##    Adding Calculation 1
+    if res1 == 'add' :
+        print("Result is (3rd no.):",(add))
+##        Calculating Again
+        c = (add)
+        d = float(input("Enter 4th Number: "))
+        sub1 = c-d
+        add1 = c+d
+        mul1 = c*d
+        div1 = c/d
+        res2 = (input("Task To Perform add/sub/mul/div/stop: "))
+        print("\n")
+        
+        if res1 == 'stop':
+            import time
+            time.sleep(2)
+            print("Thank You For Using My Code😃")
+            print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+            print("Goodbye👋")
+
+        
+        
+        if res2 == 'add' :
+            print("Your New Result is (5th No.):",(div1))
+##         Calculating Once Again
+            e = (add1)
+            f = float(input("Enter 6the Number: "))
+            sub2 = e-f
+            add2 = e+f
+            mul2 = e*f
+            div2 = e/f
+            res3 = (input("Task To Perform add/sub/mul/div/stop: "))
+            print("\n")
+            if res1 == 'stop':
+                import time
+                time.sleep(2)
+                print("Thank You For Using My Code😃")
+                print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+                print("Goodbye👋")
+            if res3 == 'add':
+                print("Your New Result is (Final Result):",(add2))
+            elif res3 == 'sub':
+                print("Your New Result is (Final Result):",(sub2))
+            elif res3 == 'mul':
+                print("Your New Result is (Final Result):",(mul2))
+            else:
+                print("Your New Result is (Final Result):",(div2))    
+
+        elif res2 == 'sub' :
+            print("Your New Result is (5th No.):",(sub1))
+##            Calculating Once Again
+            e = (sub1)
+            f = float(input("Enter 6the Number: "))
+            sub2 = e-f
+            add2 = e+f
+            mul2 = e*f
+            div2 = e/f
+            res3 = (input("Task To Perform add/sub/mul/div/stop: "))
+            print("\n")
+            if res1 == 'stop':
+                import time
+                time.sleep(2)
+                print("Thank You For Using My Code😃")
+                print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+                print("Goodbye👋")
+            if res3 == 'add':
+                print("Your New Result is (Final Result):",(add2))
+            elif res3 == 'sub':
+                print("Your New Result is (Final Result):",(sub2))
+            elif res3 == 'mul':
+                print("Your New Result is (Final Result):",(mul2))
+            else:
+                print("Your New Result is (Final Result):",(div2))     
+                
+        elif res2 == 'mul' :
+            print("Your New Result is (5th No.):",(div1))
+##               Calculating Once Again
+            e = (mul1)
+            f = float(input("Enter 6the Number: "))
+            sub2 = e-f
+            add2 = e+f
+            mul2 = e*f
+            div2 = e/f
+            res3 = (input("Task To Perform add/sub/mul/div/stop: "))
+            print("\n")
+            if res1 == 'stop':
+                import time
+                time.sleep(2)
+                print("Thank You For Using My Code😃")
+                print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+                print("Goodbye👋")
+            if res3 == 'add':
+                print("Your New Result is (Final Result):",(add2))
+            elif res3 == 'sub':
+                print("Your New Result is (Final Result):",(sub2))
+            elif res3 == 'mul':
+                print("Your New Result is (Final Result):",(mul2))
+            else:
+                print("Your New Result is (Final Result):",(div2))
+                
+        else:
+            print("Your New Result is (5th No.):",(div1))
+##               Calculating Once Again
+            e = (div1)
+            f = float(input("Enter 6the Number: "))
+            sub2 = e-f
+            add2 = e+f
+            mul2 = e*f
+            div2 = e/f
+            res3 = (input("Task To Perform add/sub/mul/div/stop: "))
+            print("\n")
+            if res1 == 'stop':
+                import time
+                time.sleep(2)
+                print("Thank You For Using My Code😃")
+                print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+                print("Goodbye👋")
+            if res3 == 'add':
+                print("Your New Result is (Final Result):",(add2))
+            elif res3 == 'sub':
+                print("Your New Result is (Final Result):",(sub2))
+            elif res3 == 'mul':
+                print("Your New Result is (Final Result):",(mul2))
+            else:
+                print("Your New Result is (Final Result):",(div2))
+
+
+
+            
+##            Subtracting Calculation 1
+    elif res1 == 'sub' :
+        print(sub)
+
+        
+##        Calculating Again
+        c = (sub)
+        d = float(input("Enter 4th Number: "))
+        sub1 = c-d
+        add1 = c+d
+        mul1 = c*d
+        div1 = c/d
+        res2 = (input("Task To Perform add/sub/mul/div/stop: "))
+        print("\n")
+        if res1 == 'stop':
+            import time
+            time.sleep(2)
+            print("Thank You For Using My Code😃")
+            print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+            print("Goodbye👋")
+        
+        if res2 == 'add' :
+            print("Your New Result is (5th No.):",(div1))
+##         Calculating Once Again
+            e = (add1)
+            f = float(input("Enter 6the Number: "))
+            sub2 = e-f
+            add2 = e+f
+            mul2 = e*f
+            div2 = e/f
+            res3 = (input("Task To Perform add/sub/mul/div/stop: "))
+            print("\n")
+            if res1 == 'stop':
+                import time
+                time.sleep(2)
+                print("Thank You For Using My Code😃")
+                print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+                print("Goodbye👋")
+            if res3 == 'add':
+                print("Your New Result is (Final Result):",(add2))
+            elif res3 == 'sub':
+                print("Your New Result is (Final Result):",(sub2))
+            elif res3 == 'mul':
+                print("Your New Result is (Final Result):",(mul2))
+            else:
+                print("Your New Result is (Final Result):",(div2))    
+
+        elif res2 == 'sub' :
+            print("Your New Result is (5th No.):",(sub1))
+##            Calculating Once Again
+            e = (sub1)
+            f = float(input("Enter 6the Number: "))
+            sub2 = e-f
+            add2 = e+f
+            mul2 = e*f
+            div2 = e/f
+            res3 = (input("Task To Perform add/sub/mul/div/stop: "))
+            print("\n")
+            if res1 == 'stop':
+                import time
+                time.sleep(2)
+                print("Thank You For Using My Code😃")
+                print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+                print("Goodbye👋")
+            if res3 == 'add':
+                print("Your New Result is (Final Result):",(add2))
+            elif res3 == 'sub':
+                print("Your New Result is (Final Result):",(sub2))
+            elif res3 == 'mul':
+                print("Your New Result is (Final Result):",(mul2))
+            else:
+                print("Your New Result is (Final Result):",(div2))     
+                
+        elif res2 == 'mul' :
+            print("Your New Result is (5th No.):",(div1))
+##               Calculating Once Again
+            e = (mul1)
+            f = float(input("Enter 6the Number: "))
+            sub2 = e-f
+            add2 = e+f
+            mul2 = e*f
+            div2 = e/f
+            res3 = (input("Task To Perform add/sub/mul/div/stop: "))
+            print("\n")
+            if res1 == 'stop':
+                import time
+                time.sleep(2)
+                print("Thank You For Using My Code😃")
+                print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+                print("Goodbye👋")
+            if res3 == 'add':
+                print("Your New Result is (Final Result):",(add2))
+            elif res3 == 'sub':
+                print("Your New Result is (Final Result):",(sub2))
+            elif res3 == 'mul':
+                print("Your New Result is (Final Result):",(mul2))
+            else:
+                print("Your New Result is (Final Result):",(div2))
+                
+        else:
+            print("Your New Result is (5th No.):",(div1))
+##               Calculating Once Again
+            e = (div1)
+            f = float(input("Enter 6the Number: "))
+            sub2 = e-f
+            add2 = e+f
+            mul2 = e*f
+            div2 = e/f
+            res3 = (input("Task To Perform add/sub/mul/div/stop: "))
+            print("\n")
+            if res1 == 'stop':
+                import time
+                time.sleep(2)
+                print("Thank You For Using My Code😃")
+                print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+                print("Goodbye👋")
+            if res3 == 'add':
+                print("Your New Result is (Final Result):",(add2))
+            elif res3 == 'sub':
+                print("Your New Result is (Final Result):",(sub2))
+            elif res3 == 'mul':
+                print("Your New Result is (Final Result):",(mul2))
+            else:
+                print("Your New Result is (Final Result):",(div2))
+
+
+
+            
+
+
+
+
+            
+##        Multiply Calculation 1
+    elif res1 == 'mul' :
+        print(mul)
+
+        
+##        Calculating Again
+        c = (mul)
+        d = float(input("Enter 4th Number: "))
+        sub1 = c-d
+        add1 = c+d
+        mul1 = c*d
+        div1 = c/d
+        res2 = (input("Task To Perform add/sub/mul/div/stop: "))
+        print("\n")
+        if res1 == 'stop':
+            import time
+            time.sleep(2)
+            print("Thank You For Using My Code😃")
+            print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+            print("Goodbye👋")
+        
+        if res2 == 'add' :
+            print("Your New Result is (5th No.):",(div1))
+##         Calculating Once Again
+            e = (add1)
+            f = float(input("Enter 6the Number: "))
+            sub2 = e-f
+            add2 = e+f
+            mul2 = e*f
+            div2 = e/f
+            res3 = (input("Task To Perform add/sub/mul/div/stop: "))
+            print("\n")
+            if res1 == 'stop':
+                import time
+                time.sleep(2)
+                print("Thank You For Using My Code😃")
+                print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+                print("Goodbye👋")
+            if res3 == 'add':
+                print("Your New Result is (Final Result):",(add2))
+            elif res3 == 'sub':
+                print("Your New Result is (Final Result):",(sub2))
+            elif res3 == 'mul':
+                print("Your New Result is (Final Result):",(mul2))
+            else:
+                print("Your New Result is (Final Result):",(div2))    
+
+        elif res2 == 'sub' :
+            print("Your New Result is (5th No.):",(sub1))
+##            Calculating Once Again
+            e = (sub1)
+            f = float(input("Enter 6the Number: "))
+            sub2 = e-f
+            add2 = e+f
+            mul2 = e*f
+            div2 = e/f
+            res3 = (input("Task To Perform add/sub/mul/div/stop: "))
+            print("\n")
+            if res1 == 'stop':
+                import time
+                time.sleep(2)
+                print("Thank You For Using My Code😃")
+                print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+                print("Goodbye👋")
+            if res3 == 'add':
+                print("Your New Result is (Final Result):",(add2))
+            elif res3 == 'sub':
+                print("Your New Result is (Final Result):",(sub2))
+            elif res3 == 'mul':
+                print("Your New Result is (Final Result):",(mul2))
+            else:
+                print("Your New Result is (Final Result):",(div2))     
+                
+        elif res2 == 'mul' :
+            print("Your New Result is (5th No.):",(div1))
+##               Calculating Once Again
+            e = (mul1)
+            f = float(input("Enter 6the Number: "))
+            sub2 = e-f
+            add2 = e+f
+            mul2 = e*f
+            div2 = e/f
+            res3 = (input("Task To Perform add/sub/mul/div/stop: "))
+            print("\n")
+            if res1 == 'stop':
+                import time
+                time.sleep(2)
+                print("Thank You For Using My Code😃")
+                print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+                print("Goodbye👋")
+            if res3 == 'add':
+                print("Your New Result is (Final Result):",(add2))
+            elif res3 == 'sub':
+                print("Your New Result is (Final Result):",(sub2))
+            elif res3 == 'mul':
+                print("Your New Result is (Final Result):",(mul2))
+            else:
+                print("Your New Result is (Final Result):",(div2))
+                
+        else:
+            print("Your New Result is (5th No.):",(div1))
+##               Calculating Once Again
+            e = (div1)
+            f = float(input("Enter 6the Number: "))
+            sub2 = e-f
+            add2 = e+f
+            mul2 = e*f
+            div2 = e/f
+            res3 = (input("Task To Perform add/sub/mul/div/stop: "))
+            print("\n")
+            if res1 == 'stop':
+                import time
+                time.sleep(2)
+                print("Thank You For Using My Code😃")
+                print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+                print("Goodbye👋")
+            if res3 == 'add':
+                print("Your New Result is (Final Result):",(add2))
+            elif res3 == 'sub':
+                print("Your New Result is (Final Result):",(sub2))
+            elif res3 == 'mul':
+                print("Your New Result is (Final Result):",(mul2))
+            else:
+                print("Your New Result is (Final Result):",(div2))
+
+
+
+            
+
+
+
+
+            
+##        Divide Calculation 1
+    else:
+        print(div)
+
+        
+##        Calculating Again
+        c = (div)
+        d = float(input("Enter 4th Number: "))
+        sub1 = c-d
+        add1 = c+d
+        mul1 = c*d
+        div1 = c/d
+        res2 = (input("Task To Perform add/sub/mul/div/stop: "))
+        print("\n")
+        if res1 == 'stop':
+            import time
+            time.sleep(2)
+            print("Thank You For Using My Code😃")
+            print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+            print("Goodbye👋")
+        
+        if res2 == 'add' :
+            print("Your New Result is (5th No.):",(div1))
+##         Calculating Once Again
+            e = (add1)
+            f = float(input("Enter 6the Number: "))
+            sub2 = e-f
+            add2 = e+f
+            mul2 = e*f
+            div2 = e/f
+            res3 = (input("Task To Perform add/sub/mul/div/stop: "))
+            print("\n")
+            if res1 == 'stop':
+                import time
+                time.sleep(2)
+                print("Thank You For Using My Code😃")
+                print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+                print("Goodbye👋")
+            if res3 == 'add':
+                print("Your New Result is (Final Result):",(add2))
+            elif res3 == 'sub':
+                print("Your New Result is (Final Result):",(sub2))
+            elif res3 == 'mul':
+                print("Your New Result is (Final Result):",(mul2))
+            else:
+                print("Your New Result is (Final Result):",(div2))    
+
+        elif res2 == 'sub' :
+            print("Your New Result is (5th No.):",(sub1))
+##            Calculating Once Again
+            e = (sub1)
+            f = float(input("Enter 6the Number: "))
+            sub2 = e-f
+            add2 = e+f
+            mul2 = e*f
+            div2 = e/f
+            res3 = (input("Task To Perform add/sub/mul/div/stop: "))
+            print("\n")
+            if res1 == 'stop':
+                import time
+                time.sleep(2)
+                print("Thank You For Using My Code😃")
+                print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+                print("Goodbye👋")
+            if res3 == 'add':
+                print("Your New Result is (Final Result):",(add2))
+            elif res3 == 'sub':
+                print("Your New Result is (Final Result):",(sub2))
+            elif res3 == 'mul':
+                print("Your New Result is (Final Result):",(mul2))
+            else:
+                print("Your New Result is (Final Result):",(div2))     
+                
+        elif res2 == 'mul' :
+            print("Your New Result is (5th No.):",(div1))
+##               Calculating Once Again
+            e = (mul1)
+            f = float(input("Enter 6the Number: "))
+            sub2 = e-f
+            add2 = e+f
+            mul2 = e*f
+            div2 = e/f
+            res3 = (input("Task To Perform add/sub/mul/div/stop: "))
+            print("\n")
+            if res1 == 'stop':
+                import time
+                time.sleep(2)
+                print("Thank You For Using My Code😃")
+                print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+                print("Goodbye👋")
+            if res3 == 'add':
+                print("Your New Result is (Final Result):",(add2))
+            elif res3 == 'sub':
+                print("Your New Result is (Final Result):",(sub2))
+            elif res3 == 'mul':
+                print("Your New Result is (Final Result):",(mul2))
+            else:
+                print("Your New Result is (Final Result):",(div2))
+                
+        else:
+            print("Your New Result is (5th No.):",(div1))
+##               Calculating Once Again
+            e = (div1)
+            f = float(input("Enter 6the Number: "))
+            sub2 = e-f
+            add2 = e+f
+            mul2 = e*f
+            div2 = e/f
+            res3 = (input("Task To Perform add/sub/mul/div/stop: "))
+            print("\n")
+            if res1 == 'stop':
+                import time
+                time.sleep(2)
+                print("Thank You For Using My Code😃")
+                print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+                print("Goodbye👋")
+            if res3 == 'add':
+                print("Your New Result is (Final Result):",(add2))
+            elif res3 == 'sub':
+                print("Your New Result is (Final Result):",(sub2))
+            elif res3 == 'mul':
+                print("Your New Result is (Final Result):",(mul2))
+            else:
+                print("Your New Result is (Final Result):",(div2))
+
+
+import time
+time.sleep(2)
+print("Thank You For Using My Code😃")
+print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+print("Goodbye👋")
