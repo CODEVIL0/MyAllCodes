@@ -1,0 +1,35 @@
+print('▌│█║▌║▌║🙂 𝐂𝐨𝐝𝐞 𝐌𝐚𝐝𝐞 𝐁𝐲 𝐂𝐎𝐃𝐄𝐕𝐈𝐋 🙂║▌║▌║█│▌',)
+
+import time
+time.sleep(2) 
+print("\n") 
+
+a = float(input("Coefficient of x²: "))
+b = float(input("Coefficient of x: ")) 
+c = float(input("Coefficient of x°: "))
+
+#root1 = ((-b+((b*b - 4*a*c)**0.5))/2*a) 
+#root2 = ((-b-((b*b - 4*a*c)**0.5))/2*a) 
+
+# Using Formula
+
+D = (b*b) - (4*a*c)
+E = (D**0.5)
+F = (2*a) 
+G = (-b+E)
+H = (-b-E)
+root1 = (G/F) 
+root2 = (H/F) 
+
+
+time.sleep(2) 
+print("\n") 
+
+print("Value Of 1st Root: %0.2f"% (root1)) 
+print("Value Of 2nd Root: %0.2f"% (root2))
+
+time.sleep(2)
+print("\n")
+print("Thank You For Using My Code😃")
+print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+print("Goodbye👋")
