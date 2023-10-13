@@ -1,0 +1,41 @@
+print("▌│█║▌║▌║🙂 𝐂𝐨𝐝𝐞 𝐌𝐚𝐝𝐞 𝐁𝐲 𝐂𝐎𝐃𝐄𝐕𝐈𝐋 🙂║▌║▌║█│▌")
+
+import time
+time.sleep(2) 
+
+print("\n") 
+
+print("Fahrenheit(°F) To Celcius(°C) Convertor or Vice Versa")
+
+print("\n") 
+time.sleep(2)
+
+
+
+print("Type 1 if you have to convert Fahrenheit(°F) into Celcius(°C)")
+print("Type 2 if you have to convert Celcius(°C) into Fahrenheit(°F)")
+print("\n")
+time.sleep(2) 
+choice = int(input("Your Choice 1/2: "))
+print("\n")
+
+if choice == 1:
+    f = float(input("Type Value Of Fahrenheit (without °F): "))
+    c = 5/9*(f-32)
+    print("\n")
+    res1 = print("Value In Celcius : %0.3f°C"% (c))
+    print("\n")
+    time.sleep(2)
+    print("Thank You For Using My Code😃")
+    print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+    print("Goodbye👋")
+else:
+    c1 = float(input("Type Value Of Celcius (without °C): "))
+    f1 = (c1*9/5)+32
+    print("\n")
+    res2 = print("Value In Farenheit : %0.3f°F"% (f1))
+    print("\n")
+    time.sleep(2)
+    print("Thank You For Using My Code😃")
+    print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+    print("Goodbye👋")
