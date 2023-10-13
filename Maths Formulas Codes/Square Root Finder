@@ -1,0 +1,22 @@
+print("▌│█║▌║▌║🙂 𝐂𝐨𝐝𝐞 𝐌𝐚𝐝𝐞 𝐁𝐲 𝐂𝐎𝐃𝐄𝐕𝐈𝐋 🙂║▌║▌║█│▌")
+
+import time
+time.sleep(2)
+print("\n")
+
+##   Finding Square Root
+
+num = float(input("Enter A Number: "))
+
+num_sqrt = (num**0.5)
+
+print ("\n")
+print("The Square Root Of %0.3f is %0.3f"% (num,num_sqrt))
+
+import time
+time.sleep(2)
+print("\n")
+
+print("Thank You For Using My Code😃")
+print("Give Feedback ☺ ( github.com/CODEVIL0 )")
+print("Goodbye👋")
